@@ -1,3 +1,0 @@
-# github.com/rabbitmq/amqp091-go v1.3.0
-## explicit
-github.com/rabbitmq/amqp091-go
