@@ -1,5 +1,5 @@
-module github.com/wagslane/go-rabbitmq
+module github.com/marcelmiguel/go-rabbitmq
 
-go 1.17
+go 1.15
 
-require github.com/rabbitmq/amqp091-go v1.3.0
+require github.com/rabbitmq/amqp091-go v1.3.4
