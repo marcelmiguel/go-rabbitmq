@@ -72,7 +72,9 @@ func main() {
 			}
 		case <-done:
 			fmt.Println("stopping publisher")
+			ticker.Stop()
 			return
 		}
 	}
+
 }
