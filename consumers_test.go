@@ -16,7 +16,7 @@ func TestConsumers(t *testing.T) {
 		t.Errorf("Cannot publish %v\n", err)
 	}
 	if consumers != 0 {
-		t.Errorf("There is no conenction ! %d\n", consumers)
+		t.Errorf("There are connections ! %d\n", consumers)
 	}
 
 	config := Config{}
@@ -43,7 +43,7 @@ func TestConsumers(t *testing.T) {
 		t.Errorf("Cannot publish %v\n", err)
 	}
 	if consumers != 1 {
-		t.Errorf("There is no conenction ! %d\n", consumers)
+		t.Errorf("There are 0 or more than 1 connections ! %d\n", consumers)
 	}
 
 	consumer.Close()
